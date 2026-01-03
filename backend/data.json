@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "admin@dayflow.com",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "email": "emp@dayflow.com",
+      "password": "emp",
+      "role": "employee"
+    }
+  ],
+  "attendance": [],
+  "leaves": []
+}

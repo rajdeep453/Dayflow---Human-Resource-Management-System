@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 id="welcome"></h2>
+
+<div id="employeeSection">
+  <button onclick="markAttendance()">Mark Attendance</button>
+  <button onclick="applyLeave()">Apply Leave</button>
+  <p id="leaveStatus"></p>
+</div>
+
+<div id="adminSection">
+  <h3>Leave Requests</h3>
+  <p id="adminView"></p>
+  <button onclick="approveLeave()">Approve</button>
+  <button onclick="rejectLeave()">Reject</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
